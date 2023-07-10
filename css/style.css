@@ -66,5 +66,19 @@ ul li {
   align-items: center;
   text-align: center;
 }
-/* .banner-info {
-} */
+
+.banner_title {
+  font-size: 65px;
+  font-weight: 700;
+}
+.banner_title span {
+  color: orangered;
+}
+.banner_description {
+  font-size: 18px;
+  padding-top: 20px;
+  padding: 0 200px;
+  text-align: center;
+  padding-bottom: 20px;
+  color: #fff;
+}
