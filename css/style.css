@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --primary-color: gray;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+.btn-primary {
+  background-color: red;
+  color: #fff;
+  padding: 10px 25px;
+  font-size: 18px;
+  font-weight: 400;
+  border: none;
+  border-radius: 5px;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: var(--primary-color);
+  /* padding: 0 200px; */
+  text-align: center;
+}
+.nav-item ul {
+  display: flex;
+  gap: 20px;
+}
+.nav-item ul li {
+  font-size: 20px;
+  text-align: center;
+}
+.nav-item li a:hover {
+  color: rebeccapurple;
+}
+.nav-item li a {
+  font-weight: 500;
+  color: #fff;
+}
+.nav-logo {
+  padding: 10px 0;
+}
+/* banner section */
+.banner-container {
+  background-image: url('../asset/image/background.jpg'),
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4));
+  background-blend-mode: overlay;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+/* .banner-info {
+} */
